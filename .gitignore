@@ -1,5 +1,7 @@
 # Created by https://www.gitignore.io/api/node
 
+/db/seeds.rb
+
 .DS_Store
 
 ### Node ###
@@ -31,15 +33,3 @@ jspm_packages
 
 # Learn-specific .results.json
 .results.json
-
-# Ignore bundler config.
-/.bundle
-
-# Ignore the default SQLite database.
-/db/*.sqlite3
-/db/*.sqlite3-journal
-
-# Ignore all logfiles and tempfiles.
-/log/*
-!/log/.keep
-/tmp
